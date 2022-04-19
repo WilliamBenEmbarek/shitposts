@@ -1,5 +1,5 @@
 I'd just like to interject for a moment. What you're referring to as Docker Containers, is in fact OCI Containers, or as I've recently taken to calling it, runtime-spec plus image-spec.
-Docker Containers is not a OS-Level virtualization layer unto itself, but rather another propritary implementation of the OCI Container specification made by the Open Container Initative, cgroups and namespaces providing the isolation as a container as defined by the runtime-spec. 
+Docker Containers is not a OS-Level virtualization layer unto itself, but rather another proprietary implementation of the OCI Container specification made by the Open Container Initative, cgroups and namespaces providing the isolation as a container as defined by the runtime-spec. 
 any containers run in a modified version of the OCI Container specifications every day, without realizing it. 
 Though a peculiar turn of events, the version of the container spec which is widely used today is often called "Docker Containers", and many of its users are not aware that it is basically the GNU system, developed by the Linux Foundation. 
 
